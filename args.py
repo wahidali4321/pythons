@@ -1,4 +1,4 @@
-def args(*kids) :
-    print("Hi , THIS IS : " , kids)
+def args(*kids):
+    print("Hi, THIS IS :", kids)
 
-kids("wahid ali")
+args("wahid ali")
