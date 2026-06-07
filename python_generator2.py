@@ -1,5 +1,5 @@
 def count_up_to(n):
-  count = 0
+  count = 1
   while count <= n:
     yield count
     count += 2
