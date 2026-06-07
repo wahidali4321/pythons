@@ -1,8 +1,8 @@
 def count_up_to(n):
-  count = 1
+  count = 0
   while count <= n:
     yield count
-    count += 1
+    count += 2
 
 for num in count_up_to(20):
   print(num)
